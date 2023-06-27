@@ -24,16 +24,7 @@ function App() {
      {/* <ControlledComponent/> */}
      {/* <ListExample/> */}
      {/* <Header/> */}
-     {/* /* <TableExample/> */}
-     <React.Fragment>
-      <UserDetails.Provider value={{fname:'Jagadeesh', lname:'S', address:'Chennai'}}>
-      <UserDetails/>
-        
-      </UserDetails.Provider>
-     </React.Fragment>
-     {/* <ContextExample/> */}
-     {/* <ListExample/> */}
-     {/* <HooksExample/> */}
+     <TableExample/>
     </div>
   );
 }
